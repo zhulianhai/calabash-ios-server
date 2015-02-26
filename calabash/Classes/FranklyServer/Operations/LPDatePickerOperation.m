@@ -91,11 +91,47 @@
 
   if (notifyTargets) {
     NSSet *targets = [picker allTargets];
+    NSLog(@"targets = %@", targets);
     for (id target in targets) {
+      NSLog(@"target = %@ => %@", target, NSStringFromClass([target class]));
       NSArray *actions = [picker actionsForTarget:target
                                   forControlEvent:UIControlEventValueChanged];
+
+      NSLog(@"actions = %@", actions);
       for (NSString *action in actions) {
         SEL sel = NSSelectorFromString(action);
+
+        /* BEGIN DEBUGGING */
+        NSLog(@"performing selector: %@", NSStringFromSelector(sel));
+        NSLog(@"responds to selector: %@", [target respondsToSelector:sel] ? @"YES" : @"NO");
+
+        NSMethodSignature *ms = [[target class] instanceMethodSignatureForSelector:sel];
+
+
+        NSString *encoding = [NSString stringWithCString:[ms methodReturnType]
+                                                encoding:NSASCIIStringEncoding];
+        NSLog(@"encoding = %@", encoding);
+
+        NSLog(@"# args = %@", @([ms numberOfArguments]));
+
+        NSString *firstEncoding = [NSString stringWithCString:[ms getArgumentTypeAtIndex:0]
+                                                     encoding:NSASCIIStringEncoding];
+
+        NSLog(@"first encoding = %@", firstEncoding);
+        NSString *secondEncoding = [NSString stringWithCString:[ms getArgumentTypeAtIndex:1]
+                                                     encoding:NSASCIIStringEncoding];
+        NSLog(@"second encoding = %@", secondEncoding);
+
+        NSInvocation *invocation;
+        invocation = [NSInvocation invocationWithMethodSignature:ms];
+        [invocation setTarget:target];
+        [invocation setSelector:sel];
+
+        // Calling this produces the same crash as performSelector:withObject: below
+        // [invocation invoke];
+        /* END DEBUGGING */
+
+
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
         [target performSelector:sel withObject:picker];
