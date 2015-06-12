@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89E364951B2ABCCD00C163A9 /* LPQueryOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E364941B2ABCCD00C163A9 /* LPQueryOperationTest.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		B1058E08197F00C000B4A57B /* LPUIAUserPrefsChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F279AE183D5B3000A922BC /* LPUIAUserPrefsChannel.m */; };
 		B1058E1D197F00C000B4A57B /* UIScriptASTPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E3603914D9F4B30087D8D9 /* UIScriptASTPredicate.m */; };
 		B1058E1E197F00C000B4A57B /* UIScriptAST.m in Sources */ = {isa = PBXBuildFile; fileRef = B184FDFA14B6DB2B002A744C /* UIScriptAST.m */; };
@@ -846,6 +847,7 @@
 		5BFF97A718B392370094E71E /* LPScrollToMarkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPScrollToMarkOperation.m; sourceTree = "<group>"; };
 		692D779E1657010000DE3E53 /* LPExitRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPExitRoute.h; sourceTree = "<group>"; };
 		692D779F1657010000DE3E53 /* LPExitRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPExitRoute.m; sourceTree = "<group>"; };
+		89E364941B2ABCCD00C163A9 /* LPQueryOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPQueryOperationTest.m; sourceTree = "<group>"; };
 		B1058E51197F00C000B4A57B /* libFrankCalabash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFrankCalabash.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1058E78197F043100B4A57B /* LPCalabashFrankRegistrar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LPCalabashFrankRegistrar.h; path = Frank/LPCalabashFrankRegistrar.h; sourceTree = "<group>"; };
 		B1058E79197F043100B4A57B /* LPCalabashFrankRegistrar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LPCalabashFrankRegistrar.m; path = Frank/LPCalabashFrankRegistrar.m; sourceTree = "<group>"; };
@@ -1919,6 +1921,7 @@
 		F5C224E41AD47403001DB4FA /* Operations */ = {
 			isa = PBXGroup;
 			children = (
+				89E364941B2ABCCD00C163A9 /* LPQueryOperationTest.m */,
 				F5C224EC1AD4766E001DB4FA /* LPSetTextOperationTest.m */,
 				F5C224E51AD47403001DB4FA /* LPScrollOperationTest.m */,
 			);
@@ -3004,6 +3007,7 @@
 				B1670E341A3248CC00000A62 /* LPSharedUIATextField.m in Sources */,
 				F50CBF851A040564004AC9DA /* LPHTTPServer.m in Sources */,
 				F50CBFAE1A0405B2004AC9DA /* LPNoContentResponse.m in Sources */,
+				89E364951B2ABCCD00C163A9 /* LPQueryOperationTest.m in Sources */,
 				F5F600511A7C6A820020637D /* LPInvoker.m in Sources */,
 				F50CBF8C1A04056F004AC9DA /* LPHTTPFileResponse.m in Sources */,
 				F50CBFB91A0405CE004AC9DA /* LPResources.m in Sources */,
