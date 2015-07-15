@@ -408,6 +408,21 @@
 		F56630951A39B09C00DEA0C0 /* LPInfoPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = F566308B1A39B09C00DEA0C0 /* LPInfoPlist.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		F56630961A39B09C00DEA0C0 /* LPInfoPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = F566308B1A39B09C00DEA0C0 /* LPInfoPlist.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		F56630981A39B09C00DEA0C0 /* LPInfoPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = F566308B1A39B09C00DEA0C0 /* LPInfoPlist.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4ED31B56BFDF00E7EA23 /* LPUIALocalizationRouteTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4ED21B56BFDF00E7EA23 /* LPUIALocalizationRouteTest.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4ED61B56BFEE00E7EA23 /* LPKeyboardLanguageRouteTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4ED41B56BFEE00E7EA23 /* LPKeyboardLanguageRouteTest.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4ED71B56BFEE00E7EA23 /* LPPreferredLanguageRouteTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4ED51B56BFEE00E7EA23 /* LPPreferredLanguageRouteTest.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EE11B56C04900E7EA23 /* LPKeyboardLanguageRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4ED91B56C04900E7EA23 /* LPKeyboardLanguageRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EE21B56C04900E7EA23 /* LPKeyboardLanguageRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4ED91B56C04900E7EA23 /* LPKeyboardLanguageRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EE31B56C04900E7EA23 /* LPKeyboardLanguageRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4ED91B56C04900E7EA23 /* LPKeyboardLanguageRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EE41B56C04900E7EA23 /* LPKeyboardLanguageRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4ED91B56C04900E7EA23 /* LPKeyboardLanguageRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EE81B56C04900E7EA23 /* LPPreferredLanguageRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4EDB1B56C04900E7EA23 /* LPPreferredLanguageRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EE91B56C04900E7EA23 /* LPPreferredLanguageRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4EDB1B56C04900E7EA23 /* LPPreferredLanguageRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EEA1B56C04900E7EA23 /* LPPreferredLanguageRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4EDB1B56C04900E7EA23 /* LPPreferredLanguageRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EEB1B56C04900E7EA23 /* LPPreferredLanguageRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4EDB1B56C04900E7EA23 /* LPPreferredLanguageRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EEF1B56C04900E7EA23 /* LPUIALocalizationRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4EDD1B56C04900E7EA23 /* LPUIALocalizationRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EF01B56C04900E7EA23 /* LPUIALocalizationRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4EDD1B56C04900E7EA23 /* LPUIALocalizationRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EF11B56C04900E7EA23 /* LPUIALocalizationRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4EDD1B56C04900E7EA23 /* LPUIALocalizationRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F56B4EF21B56C04900E7EA23 /* LPUIALocalizationRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B4EDD1B56C04900E7EA23 /* LPUIALocalizationRoute.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		F59741C11AA565190089DC88 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59741BD1AA565190089DC88 /* OCMockitoIOS.framework */; };
 		F59741C21AA565190089DC88 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59741BE1AA565190089DC88 /* OCHamcrestIOS.framework */; };
 		F59741EE1AA5712F0089DC88 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F59741E31AA5712F0089DC88 /* libOCMock.a */; };
@@ -774,6 +789,15 @@
 		F56592601B4713FE00C044C8 /* LPRepeatingTimerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPRepeatingTimerProtocol.h; sourceTree = "<group>"; };
 		F566308A1A39B09C00DEA0C0 /* LPInfoPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPInfoPlist.h; sourceTree = "<group>"; };
 		F566308B1A39B09C00DEA0C0 /* LPInfoPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPInfoPlist.m; sourceTree = "<group>"; };
+		F56B4ED21B56BFDF00E7EA23 /* LPUIALocalizationRouteTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPUIALocalizationRouteTest.m; sourceTree = "<group>"; };
+		F56B4ED41B56BFEE00E7EA23 /* LPKeyboardLanguageRouteTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPKeyboardLanguageRouteTest.m; sourceTree = "<group>"; };
+		F56B4ED51B56BFEE00E7EA23 /* LPPreferredLanguageRouteTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPreferredLanguageRouteTest.m; sourceTree = "<group>"; };
+		F56B4ED81B56C04900E7EA23 /* LPKeyboardLanguageRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPKeyboardLanguageRoute.h; sourceTree = "<group>"; };
+		F56B4ED91B56C04900E7EA23 /* LPKeyboardLanguageRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPKeyboardLanguageRoute.m; sourceTree = "<group>"; };
+		F56B4EDA1B56C04900E7EA23 /* LPPreferredLanguageRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPPreferredLanguageRoute.h; sourceTree = "<group>"; };
+		F56B4EDB1B56C04900E7EA23 /* LPPreferredLanguageRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPreferredLanguageRoute.m; sourceTree = "<group>"; };
+		F56B4EDC1B56C04900E7EA23 /* LPUIALocalizationRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPUIALocalizationRoute.h; sourceTree = "<group>"; };
+		F56B4EDD1B56C04900E7EA23 /* LPUIALocalizationRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPUIALocalizationRoute.m; sourceTree = "<group>"; };
 		F56CBBB01B451B74002D1DC1 /* VERSION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VERSION.md; sourceTree = "<group>"; };
 		F58937E91A9BE0E6007B9A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		F58B6DE8186847F70042191C /* gitversioning-after.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "gitversioning-after.sh"; sourceTree = "<group>"; };
@@ -1214,6 +1238,12 @@
 		B184FDD014B6DB2B002A744C /* Routes */ = {
 			isa = PBXGroup;
 			children = (
+				F56B4ED81B56C04900E7EA23 /* LPKeyboardLanguageRoute.h */,
+				F56B4ED91B56C04900E7EA23 /* LPKeyboardLanguageRoute.m */,
+				F56B4EDA1B56C04900E7EA23 /* LPPreferredLanguageRoute.h */,
+				F56B4EDB1B56C04900E7EA23 /* LPPreferredLanguageRoute.m */,
+				F56B4EDC1B56C04900E7EA23 /* LPUIALocalizationRoute.h */,
+				F56B4EDD1B56C04900E7EA23 /* LPUIALocalizationRoute.m */,
 				B13B7FBD1A31FE560054FFB1 /* LPDumpRoute.h */,
 				B13B7FBE1A31FE560054FFB1 /* LPDumpRoute.m */,
 				B1F771FC1A22A35A009A2336 /* LPUIARouteOverSharedElement.h */,
@@ -1692,6 +1722,9 @@
 		F5C224E61AD47403001DB4FA /* Routes */ = {
 			isa = PBXGroup;
 			children = (
+				F56B4ED41B56BFEE00E7EA23 /* LPKeyboardLanguageRouteTest.m */,
+				F56B4ED51B56BFEE00E7EA23 /* LPPreferredLanguageRouteTest.m */,
+				F56B4ED21B56BFDF00E7EA23 /* LPUIALocalizationRouteTest.m */,
 				F5C224E71AD47403001DB4FA /* LPScreenshotRouteTest.m */,
 				F5C224E81AD47403001DB4FA /* LPVersionRouteTest.m */,
 				89F2EFE71B22462700958052 /* LPIntrospectionRouteTest.m */,
@@ -2108,6 +2141,7 @@
 				B15BF9A719ABB1DD00B38577 /* LPHTTPFileResponse.m in Sources */,
 				B15BF9A819ABB1DD00B38577 /* LPHTTPRedirectResponse.m in Sources */,
 				B15BF9A919ABB1DD00B38577 /* LPCORSResponse.m in Sources */,
+				F56B4EE41B56C04900E7EA23 /* LPKeyboardLanguageRoute.m in Sources */,
 				B15BF9AA19ABB1DD00B38577 /* LPRouter.m in Sources */,
 				B15BF9AB19ABB1DD00B38577 /* LPScrollToMarkOperation.m in Sources */,
 				F5A8B4651B39BFEB00F390CA /* LPContextFilterLogFormatter.m in Sources */,
@@ -2183,11 +2217,13 @@
 				B15BF9DC19ABB1DE00B38577 /* UIScriptASTLast.m in Sources */,
 				B15BF9DD19ABB1DE00B38577 /* UIScriptASTWith.m in Sources */,
 				F5A8B47A1B39BFEB00F390CA /* LPAbstractDatabaseLogger.m in Sources */,
+				F56B4EEB1B56C04900E7EA23 /* LPPreferredLanguageRoute.m in Sources */,
 				B15BF9DE19ABB1DE00B38577 /* UIScriptParser.m in Sources */,
 				B15BF9DF19ABB1DE00B38577 /* LPUIAUserPrefsChannel.m in Sources */,
 				B15BF9E019ABB1DE00B38577 /* LPJSONUtils.m in Sources */,
 				B15BF9E119ABB1DE00B38577 /* LPReflectUtils.m in Sources */,
 				B15BF9E219ABB1DE00B38577 /* LPTouchUtils.m in Sources */,
+				F56B4EF21B56C04900E7EA23 /* LPUIALocalizationRoute.m in Sources */,
 				B15BF9E319ABB1DE00B38577 /* LPEnv.m in Sources */,
 				B15BF9E419ABB1DE00B38577 /* LPLogger.m in Sources */,
 				B15BF9E519ABB1DE00B38577 /* LPCDataScanner.m in Sources */,
@@ -2223,6 +2259,7 @@
 				B1D5BD8A19A23BCE0070E8CE /* LPQueryAllOperation.m in Sources */,
 				B1D5BD8B19A23BCE0070E8CE /* LPOperation.m in Sources */,
 				F5A8B4641B39BFEB00F390CA /* LPContextFilterLogFormatter.m in Sources */,
+				F56B4EE31B56C04900E7EA23 /* LPKeyboardLanguageRoute.m in Sources */,
 				B1D5BD8C19A23BCE0070E8CE /* LPQueryOperation.m in Sources */,
 				B1D5BDDA19A23BE00070E8CE /* LPCalabashFrankRegistrar.m in Sources */,
 				B1D5BD8D19A23BCE0070E8CE /* LPScrollOperation.m in Sources */,
@@ -2270,6 +2307,7 @@
 				B1D5BDAD19A23BCE0070E8CE /* UIScriptASTIndex.m in Sources */,
 				B1D5BDAE19A23BCE0070E8CE /* UIScriptASTLast.m in Sources */,
 				B1670E2B1A32410E00000A62 /* LPDumpRoute.m in Sources */,
+				F56B4EEA1B56C04900E7EA23 /* LPPreferredLanguageRoute.m in Sources */,
 				B1D5BDAF19A23BCE0070E8CE /* LPEnv.m in Sources */,
 				B1D5BDB019A23BCE0070E8CE /* UIScriptASTWith.m in Sources */,
 				B1D5BDB119A23BCE0070E8CE /* LPSSKeychain.m in Sources */,
@@ -2291,6 +2329,7 @@
 				F5C224CB1ACDF299001DB4FA /* LPWKWebViewRuntimeLoader.m in Sources */,
 				B1D5BDBA19A23BCE0070E8CE /* LPExitRoute.m in Sources */,
 				B1D5BDBB19A23BCE0070E8CE /* LPSliderOperation.m in Sources */,
+				F56B4EF11B56C04900E7EA23 /* LPUIALocalizationRoute.m in Sources */,
 				B1D5BDBC19A23BCE0070E8CE /* UIScriptASTVisibility.m in Sources */,
 				B1D5BDBD19A23BCE0070E8CE /* LPCollectionViewScrollToItemOperation.m in Sources */,
 				F5A8B4791B39BFEB00F390CA /* LPAbstractDatabaseLogger.m in Sources */,
@@ -2331,6 +2370,7 @@
 				F5091BEA18C4E1D700C85307 /* LPHTTPRedirectResponse.m in Sources */,
 				F5091BEB18C4E1D700C85307 /* LPScrollToMarkOperation.m in Sources */,
 				F5091BEC18C4E1D700C85307 /* LPRouter.m in Sources */,
+				F56B4EE21B56C04900E7EA23 /* LPKeyboardLanguageRoute.m in Sources */,
 				F5091BED18C4E1D700C85307 /* LPQueryAllOperation.m in Sources */,
 				F5091BEE18C4E1D700C85307 /* LPOperation.m in Sources */,
 				F5A8B4631B39BFEB00F390CA /* LPContextFilterLogFormatter.m in Sources */,
@@ -2406,11 +2446,13 @@
 				F5091C1D18C4E1D700C85307 /* UIScriptASTVisibility.m in Sources */,
 				F5091C1E18C4E1D700C85307 /* LPCollectionViewScrollToItemOperation.m in Sources */,
 				F5A8B4781B39BFEB00F390CA /* LPAbstractDatabaseLogger.m in Sources */,
+				F56B4EE91B56C04900E7EA23 /* LPPreferredLanguageRoute.m in Sources */,
 				F5091C1F18C4E1D700C85307 /* LPLogger.m in Sources */,
 				F5091C2018C4E1D700C85307 /* LPAppPropertyRoute.m in Sources */,
 				F5091C2118C4E1D700C85307 /* LPQueryLogRoute.m in Sources */,
 				F5091C2218C4E1D700C85307 /* LPLocationRoute.m in Sources */,
 				F5091C2318C4E1D700C85307 /* LPFlashOperation.m in Sources */,
+				F56B4EF01B56C04900E7EA23 /* LPUIALocalizationRoute.m in Sources */,
 				F5091C2418C4E1D700C85307 /* LPScrollToRowWithMarkOperation.m in Sources */,
 				F5091C2518C4E1D700C85307 /* LPOrientationOperation.m in Sources */,
 				F5F53D6B18C619CB00BD9731 /* LPCORSResponse.m in Sources */,
@@ -2444,6 +2486,7 @@
 				F5A33A5F1AC0172A00224639 /* UIWebView+LPWebViewTest.m in Sources */,
 				F50CBFBB1A0405CE004AC9DA /* UIScriptASTPredicate.m in Sources */,
 				F5C0945A1A97B7CB00AE5991 /* LPWebQuery.m in Sources */,
+				F56B4EEF1B56C04900E7EA23 /* LPUIALocalizationRoute.m in Sources */,
 				F5F2D5EF1ACACF2F0027937B /* LPIsWebView.m in Sources */,
 				F50CBFBE1A0405CE004AC9DA /* UIScriptASTClassName.m in Sources */,
 				F5A33A5D1AC00D1300224639 /* UIWebView+LPWebView.m in Sources */,
@@ -2452,6 +2495,7 @@
 				F50CBFB61A0405CE004AC9DA /* LPCJSONDeserializer.m in Sources */,
 				F50CBFC31A0405CE004AC9DA /* UIScriptASTWith.m in Sources */,
 				89F2EFE81B22462700958052 /* LPIntrospectionRouteTest.m in Sources */,
+				F56B4EE81B56C04900E7EA23 /* LPPreferredLanguageRoute.m in Sources */,
 				F50CBF901A04058C004AC9DA /* LPRouter.m in Sources */,
 				F50CBFC61A0405E9004AC9DA /* LPUIAUserPrefsChannel.m in Sources */,
 				F50CBFC91A0405E9004AC9DA /* LPEnv.m in Sources */,
@@ -2469,6 +2513,7 @@
 				F50CBF8B1A04056F004AC9DA /* LPHTTPDynamicFileResponse.m in Sources */,
 				F5C224E31AD473F0001DB4FA /* LPTouchUtilsTest.m in Sources */,
 				F5C224DB1AD472B1001DB4FA /* LPInvokerTest.m in Sources */,
+				F56B4ED31B56BFDF00E7EA23 /* LPUIALocalizationRouteTest.m in Sources */,
 				F5A8B4621B39BFEB00F390CA /* LPContextFilterLogFormatter.m in Sources */,
 				B1670E2E1A32411100000A62 /* LPDumpRoute.m in Sources */,
 				F5C276251B39C27800DF63FA /* LPLogFormatter.m in Sources */,
@@ -2501,6 +2546,7 @@
 				F5A8B4691B39BFEB00F390CA /* LPDispatchQueueLogFormatter.m in Sources */,
 				F50CBFBC1A0405CE004AC9DA /* UIScriptAST.m in Sources */,
 				F50CBFB21A0405B2004AC9DA /* LPExitRoute.m in Sources */,
+				F56B4EE11B56C04900E7EA23 /* LPKeyboardLanguageRoute.m in Sources */,
 				F5A8B4701B39BFEB00F390CA /* LPMultiFormatter.m in Sources */,
 				F50CBFA31A0405B2004AC9DA /* LPAppPropertyRoute.m in Sources */,
 				F50CBFB41A0405CE004AC9DA /* LPISO8601DateFormatter.m in Sources */,
@@ -2522,12 +2568,14 @@
 				F5A8B49F1B39BFEB00F390CA /* LPLog.m in Sources */,
 				F50CBFAD1A0405B2004AC9DA /* LPRecordRoute.m in Sources */,
 				F532C19B1AFD28970024DA55 /* LPCJSONSerializerTest.m in Sources */,
+				F56B4ED61B56BFEE00E7EA23 /* LPKeyboardLanguageRouteTest.m in Sources */,
 				F50CBF971A04058C004AC9DA /* LPOperation.m in Sources */,
 				F5C224C71ACDF299001DB4FA /* LPWKWebViewRuntimeLoader.m in Sources */,
 				F50CBFA11A0405B2004AC9DA /* LPKeychainRoute.m in Sources */,
 				F50CBF941A04058C004AC9DA /* LPOrientationOperation.m in Sources */,
 				F50CBFC71A0405E9004AC9DA /* LPJSONUtils.m in Sources */,
 				F50CBF911A04058C004AC9DA /* LPCollectionViewScrollToItemOperation.m in Sources */,
+				F56B4ED71B56BFEE00E7EA23 /* LPPreferredLanguageRouteTest.m in Sources */,
 				F5A8B47E1B39BFEB00F390CA /* LPASLLogCapture.m in Sources */,
 				F50CBF9F1A040599004AC9DA /* LPCollectionViewScrollToItemWithMarkOperation.m in Sources */,
 				F50CBFB81A0405CE004AC9DA /* LPCJSONSerializer.m in Sources */,
